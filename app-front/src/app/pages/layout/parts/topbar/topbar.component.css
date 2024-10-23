@@ -1,0 +1,26 @@
+.topbar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topbar-right {
+    display: flex;
+}
+
+.layout-topbar-button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: var(--text-color-secondary);
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.layout-topbar-button:hover {
+    color: var(--text-color);
+    background-color: #e0e0eb;
+}
