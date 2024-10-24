@@ -22,7 +22,7 @@ const routes: Routes = [
         component: ModuloComponent
       },
       {
-        path: 'categoria',
+        path: 'categoria/:id',
         component: CategoriaComponent
       }
     ]

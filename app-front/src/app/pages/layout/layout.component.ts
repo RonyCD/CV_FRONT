@@ -9,14 +9,14 @@ import { MenuItem } from 'primeng/api';
 })
 export class LayoutComponent {
   
-  items: MenuItem[]; // Asegúrate de importar MenuItem desde 'primeng/api'
+  items: MenuItem[];
   home: MenuItem;
 
   containerClass: string = 'default-container';
 
 
   constructor() {
-    this.home = { icon: 'pi pi-home', routerLink: '/' }; // Ajusta la ruta a la página principal
+    this.home = { icon: 'pi pi-home', routerLink: '/' };
     this.items = [
       { label: 'Home', routerLink: '/home' },
       { label: 'Modulo', routerLink: '/home/modulo' },

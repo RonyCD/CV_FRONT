@@ -11,6 +11,7 @@ import { Sidebar } from 'primeng/sidebar';
 import { SidebarComponent } from './pages/layout/parts/sidebar/sidebar.component';
 import { CvirtualModule } from './pages/cvirtual/cvirtual.module';
 import { PrimengModule } from './core/prime/primeng.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { PrimengModule } from './core/prime/primeng.module';
     FormsModule,
     TopbarComponent,
     SidebarComponent,
-    CvirtualModule
+    CvirtualModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

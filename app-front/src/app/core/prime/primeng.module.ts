@@ -17,6 +17,11 @@ import { ToolbarModule } from 'primeng/toolbar';
 import { AvatarModule } from 'primeng/avatar';
 import { SidebarModule } from 'primeng/sidebar';
 import { BreadcrumbModule } from 'primeng/breadcrumb';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ListboxModule } from 'primeng/listbox';
+import { OrderListModule } from 'primeng/orderlist';
+
+
 
 @NgModule({
   imports: [
@@ -38,7 +43,10 @@ import { BreadcrumbModule } from 'primeng/breadcrumb';
     ToolbarModule,
     AvatarModule,
     SidebarModule,
-    BreadcrumbModule
+    BreadcrumbModule,
+    BrowserAnimationsModule,
+    ListboxModule,
+    OrderListModule
     
   ]
 })

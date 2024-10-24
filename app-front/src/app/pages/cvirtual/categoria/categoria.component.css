@@ -1,0 +1,19 @@
+
+.cat-container {
+    display: flex;   
+    height: 100vh;
+    padding: 1rem;
+}
+
+.left-container, .right-container {
+    border: 2px solid red;
+    padding: 20px;
+}
+
+.left-container {
+    flex: 3;
+}
+
+.right-container {
+    flex: 0.7;
+}

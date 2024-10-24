@@ -1,8 +1,8 @@
 <div class="grid-container">
     <div class="grid-item" *ngFor="let card of cardsData">
-        <div class="card">
-            <div class="card-header">{{ card.header }}</div>
-            <div class="card-content">{{ card.content }}</div>
+        <div class="card" (click)="onCardClick(card.nombreModulo)">
+            <div class="card-header">{{ card.nombreModulo }}</div>
+            <div class="card-content">{{ card.descModulo }}</div>
         </div>
     </div>
 </div>
